@@ -1,20 +1,352 @@
-<section id="projects-section" class="min-h-screen bg-black px-10 py-24">
-  <h2 class="text-4xl font-bold text-center mb-10">My Projects</h2>
+<section id="projects" class="bg-[#080d18] text-white px-6 md:px-16 py-24 overflow-hidden">
 
-  <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-    <div class="bg-gray-900 p-6 rounded-xl">
-      <h3 class="text-2xl font-bold mb-3">Project One</h3>
-      <p class="text-gray-300">A simple responsive website using HTML and Tailwind CSS.</p>
+  <!-- Section Heading -->
+  <div class="relative text-center mb-20">
+    <h2 class="absolute inset-0 text-6xl md:text-8xl font-black text-white/5 uppercase">
+      Projects
+    </h2>
+
+    <h3 class="relative text-4xl md:text-6xl font-black uppercase">
+      My <span class="text-teal-400">Projects</span>
+    </h3>
+
+    <p class="relative mt-6 max-w-2xl mx-auto text-gray-400 text-lg">
+      A showcase of my selected web development projects with project details, descriptions, tools, and source code.
+    </p>
+  </div>
+
+  <div class="max-w-6xl mx-auto space-y-10">
+
+    <!-- PROJECT 01 -->
+    <div class="relative bg-[#151a24] border border-white/10 rounded-3xl overflow-hidden shadow-2xl transition-all duration-500 hover:-translate-y-2 hover:border-teal-400/60 hover:shadow-teal-500/10 group">
+
+      <!-- Project Number -->
+      <span class="absolute top-3 right-6 text-5xl font-black text-white/5">
+        01
+      </span>
+
+      <!-- Card Title -->
+      <div class="px-7 py-6 border-b border-white/10">
+        <h3 class="text-2xl font-black uppercase tracking-wide">
+          E-Commerce Store
+        </h3>
+        <div class="w-full h-[2px] bg-teal-400 mt-5"></div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-0">
+
+        <!-- Image Area -->
+        <div class="bg-[#0f1b2d] h-64 md:h-full flex items-center justify-center overflow-hidden">
+          <img 
+            src="project1.png" 
+            alt="E-Commerce Store"
+            class="w-full h-full object-cover transition duration-700 group-hover:scale-110"
+          >
+        </div>
+
+        <!-- Info Area -->
+        <div class="p-7 space-y-5">
+
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-5">
+            <p class="text-teal-400 text-xs font-bold uppercase tracking-widest mb-2">
+              Project Name
+            </p>
+            <h4 class="text-lg font-bold">
+              MERN E-Commerce Store 🛒
+            </h4>
+          </div>
+
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-5">
+            <p class="text-teal-400 text-xs font-bold uppercase tracking-widest mb-2">
+              Overall Description
+            </p>
+            <p class="text-gray-300 text-sm md:text-base leading-relaxed">
+              A full-stack e-commerce platform where users can browse products, view product details,
+              manage cart items, and experience a clean online shopping interface. The project focuses
+              on responsive design, product management, backend integration, and smooth user interaction.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Tools + Button -->
+      <div class="px-7 py-6 border-t border-white/10 flex flex-col lg:flex-row gap-6 lg:items-center lg:justify-between">
+        <div>
+          <p class="text-teal-400 text-xs font-bold uppercase tracking-widest mb-4">
+            Tools I Used
+          </p>
+
+          <div class="flex flex-wrap gap-2">
+            <span class="tool-pill">MongoDB</span>
+            <span class="tool-pill">Express.js</span>
+            <span class="tool-pill">React</span>
+            <span class="tool-pill">Node.js</span>
+            <span class="tool-pill">Tailwind CSS</span>
+            <span class="tool-pill">JavaScript</span>
+          </div>
+        </div>
+
+        <a 
+          href="https://github.com/HuXn-WebDev/MERN-E-Commerce-Store" 
+          target="_blank"
+          class="inline-flex items-center justify-center gap-2 border border-teal-400/60 text-teal-300 hover:bg-teal-500 hover:text-white px-6 py-3 rounded-full text-sm font-bold transition duration-300"
+        >
+          <span>●</span> View on GitHub
+        </a>
+      </div>
     </div>
 
-    <div class="bg-gray-900 p-6 rounded-xl">
-      <h3 class="text-2xl font-bold mb-3">Project Two</h3>
-      <p class="text-gray-300">A JavaScript-based interactive web project.</p>
+
+    <!-- PROJECT 02 -->
+    <div class="relative bg-[#151a24] border border-white/10 rounded-3xl overflow-hidden shadow-2xl transition-all duration-500 hover:-translate-y-2 hover:border-teal-400/60 hover:shadow-teal-500/10 group">
+
+      <span class="absolute top-3 right-6 text-5xl font-black text-white/5">
+        02
+      </span>
+
+      <div class="px-7 py-6 border-b border-white/10">
+        <h3 class="text-2xl font-black uppercase tracking-wide">
+          MERN Movies App
+        </h3>
+        <div class="w-full h-[2px] bg-teal-400 mt-5"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-0">
+
+        <div class="bg-[#0f1b2d] h-64 md:h-full flex items-center justify-center overflow-hidden">
+          <img 
+            src="project2.png" 
+            alt="MERN Movies App"
+            class="w-full h-full object-cover transition duration-700 group-hover:scale-110"
+          >
+        </div>
+
+        <div class="p-7 space-y-5">
+
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-5">
+            <p class="text-teal-400 text-xs font-bold uppercase tracking-widest mb-2">
+              Project Name
+            </p>
+            <h4 class="text-lg font-bold">
+              MERN Movies App 🎬
+            </h4>
+          </div>
+
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-5">
+            <p class="text-teal-400 text-xs font-bold uppercase tracking-widest mb-2">
+              Overall Description
+            </p>
+            <p class="text-gray-300 text-sm md:text-base leading-relaxed">
+              A full-stack movie application where users can browse, search, and explore movie content.
+              The app includes a modern responsive interface, movie information display, user-friendly
+              navigation, and dynamic data handling for an entertainment-focused web experience.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="px-7 py-6 border-t border-white/10 flex flex-col lg:flex-row gap-6 lg:items-center lg:justify-between">
+        <div>
+          <p class="text-teal-400 text-xs font-bold uppercase tracking-widest mb-4">
+            Tools I Used
+          </p>
+
+          <div class="flex flex-wrap gap-2">
+            <span class="tool-pill">MongoDB</span>
+            <span class="tool-pill">Express.js</span>
+            <span class="tool-pill">React</span>
+            <span class="tool-pill">Node.js</span>
+            <span class="tool-pill">REST API</span>
+            <span class="tool-pill">JavaScript</span>
+          </div>
+        </div>
+
+        <a 
+          href="https://github.com/HuXn-WebDev/MERN-Movies-App" 
+          target="_blank"
+          class="inline-flex items-center justify-center gap-2 border border-teal-400/60 text-teal-300 hover:bg-teal-500 hover:text-white px-6 py-3 rounded-full text-sm font-bold transition duration-300"
+        >
+          <span>●</span> View on GitHub
+        </a>
+      </div>
     </div>
 
-    <div class="bg-gray-900 p-6 rounded-xl">
-      <h3 class="text-2xl font-bold mb-3">Project Three</h3>
-      <p class="text-gray-300">A portfolio project with multiple sections.</p>
+
+    <!-- PROJECT 03 -->
+    <div class="relative bg-[#151a24] border border-white/10 rounded-3xl overflow-hidden shadow-2xl transition-all duration-500 hover:-translate-y-2 hover:border-teal-400/60 hover:shadow-teal-500/10 group">
+
+      <span class="absolute top-3 right-6 text-5xl font-black text-white/5">
+        03
+      </span>
+
+      <div class="px-7 py-6 border-b border-white/10">
+        <h3 class="text-2xl font-black uppercase tracking-wide">
+          StudyNotion LMS
+        </h3>
+        <div class="w-full h-[2px] bg-teal-400 mt-5"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-0">
+
+        <div class="bg-white h-64 md:h-full flex items-center justify-center overflow-hidden">
+          <img 
+            src="project3.png" 
+            alt="Study Notion LMS"
+            class="w-full h-full object-cover transition duration-700 group-hover:scale-110"
+          >
+        </div>
+
+        <div class="p-7 space-y-5">
+
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-5">
+            <p class="text-teal-400 text-xs font-bold uppercase tracking-widest mb-2">
+              Project Name
+            </p>
+            <h4 class="text-lg font-bold">
+              StudyNotion — Learning Management System 📚
+            </h4>
+          </div>
+
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-5">
+            <p class="text-teal-400 text-xs font-bold uppercase tracking-widest mb-2">
+              Overall Description
+            </p>
+            <p class="text-gray-300 text-sm md:text-base leading-relaxed">
+              A learning management system where instructors can create courses and students can
+              enroll, learn, and track their progress. The project focuses on online education,
+              course management, dashboards, user access, and structured learning experiences.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="px-7 py-6 border-t border-white/10 flex flex-col lg:flex-row gap-6 lg:items-center lg:justify-between">
+        <div>
+          <p class="text-teal-400 text-xs font-bold uppercase tracking-widest mb-4">
+            Tools I Used
+          </p>
+
+          <div class="flex flex-wrap gap-2">
+            <span class="tool-pill">MongoDB</span>
+            <span class="tool-pill">Express.js</span>
+            <span class="tool-pill">React</span>
+            <span class="tool-pill">Node.js</span>
+            <span class="tool-pill">Redux</span>
+            <span class="tool-pill">Tailwind CSS</span>
+          </div>
+        </div>
+
+        <a 
+          href="https://github.com/BoddepallyVenkatesh06/Study-Notion-LMS" 
+          target="_blank"
+          class="inline-flex items-center justify-center gap-2 border border-teal-400/60 text-teal-300 hover:bg-teal-500 hover:text-white px-6 py-3 rounded-full text-sm font-bold transition duration-300"
+        >
+          <span>●</span> View on GitHub
+        </a>
+      </div>
     </div>
+
+
+    <!-- PROJECT 04 -->
+    <div class="relative bg-[#151a24] border border-white/10 rounded-3xl overflow-hidden shadow-2xl transition-all duration-500 hover:-translate-y-2 hover:border-teal-400/60 hover:shadow-teal-500/10 group">
+
+      <span class="absolute top-3 right-6 text-5xl font-black text-white/5">
+        04
+      </span>
+
+      <div class="px-7 py-6 border-b border-white/10">
+        <h3 class="text-2xl font-black uppercase tracking-wide">
+          Thinkify
+        </h3>
+        <div class="w-full h-[2px] bg-teal-400 mt-5"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-0">
+
+        <div class="bg-white h-64 md:h-full flex items-center justify-center overflow-hidden">
+          <img 
+            src="project4.png" 
+            alt="Thinkify"
+            class="w-full h-full object-contain p-8 transition duration-700 group-hover:scale-110"
+          >
+        </div>
+
+        <div class="p-7 space-y-5">
+
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-5">
+            <p class="text-teal-400 text-xs font-bold uppercase tracking-widest mb-2">
+              Project Name
+            </p>
+            <h4 class="text-lg font-bold">
+              Thinkify 💡
+            </h4>
+          </div>
+
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-5">
+            <p class="text-teal-400 text-xs font-bold uppercase tracking-widest mb-2">
+              Overall Description
+            </p>
+            <p class="text-gray-300 text-sm md:text-base leading-relaxed">
+              Thinkify is a creative web project focused on idea organization and clean digital interaction.
+              The interface is designed to help users interact with content in an organized, simple,
+              and visually appealing way.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="px-7 py-6 border-t border-white/10 flex flex-col lg:flex-row gap-6 lg:items-center lg:justify-between">
+        <div>
+          <p class="text-teal-400 text-xs font-bold uppercase tracking-widest mb-4">
+            Tools I Used
+          </p>
+
+          <div class="flex flex-wrap gap-2">
+            <span class="tool-pill">HTML</span>
+            <span class="tool-pill">CSS</span>
+            <span class="tool-pill">JavaScript</span>
+            <span class="tool-pill">Responsive Design</span>
+            <span class="tool-pill">UI Design</span>
+          </div>
+        </div>
+
+        <a 
+          href="https://github.com/masum184e/thinkify" 
+          target="_blank"
+          class="inline-flex items-center justify-center gap-2 border border-teal-400/60 text-teal-300 hover:bg-teal-500 hover:text-white px-6 py-3 rounded-full text-sm font-bold transition duration-300"
+        >
+          <span>●</span> View on GitHub
+        </a>
+      </div>
+    </div>
+
   </div>
 </section>
+
+<!-- Small Tailwind-friendly custom utility -->
+<style>
+  .tool-pill {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid rgba(45, 212, 191, 0.45);
+    background: rgba(20, 184, 166, 0.12);
+    color: #2dd4bf;
+    padding: 0.45rem 0.85rem;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1;
+    transition: all 0.3s ease;
+  }
+
+  .tool-pill:hover {
+    background: #14b8a6;
+    color: white;
+    transform: translateY(-2px);
+  }
+</style>
