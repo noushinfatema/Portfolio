@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Noushin Fatema — Portfolio</title>
 
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
-      body { opacity: 0; transition: opacity 0.4s ease; background: #0b0f1a; }
+      body {
+        opacity: 0;
+        transition: opacity 0.4s ease;
+        background: #0b0f1a;
+      }
       body.loaded { opacity: 1; }
 
       ::-webkit-scrollbar { width: 4px; }
@@ -19,24 +22,20 @@
   </head>
 
   <body class="bg-[#0b0f1a] text-white">
-
     <div id="navbar"></div>
     <div id="hero"></div>
     <div id="about"></div>
+    <div id="skills"></div>
     <div id="projects"></div>
     <div id="contact"></div>
 
-    <!-- Your script.js handles all loading -->
-     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="script.js"></script>
 
-    <!-- Reveal page once hero is likely painted -->
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script src="script.js"></script>
-  <script>
-    window.addEventListener('load', () => {
-      setTimeout(() => document.body.classList.add('loaded'), 200);
-    });
-  </script>
-</body>
+    <script>
+      window.addEventListener('load', () => {
+        setTimeout(() => document.body.classList.add('loaded'), 200);
+      });
+    </script>
+  </body>
 </html>

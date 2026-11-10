@@ -39,6 +39,7 @@ function loadComponent(id, file) {
 loadComponent("navbar", "navbar.html");
 loadComponent("hero", "hero.html");
 loadComponent("about", "about.html");
+loadComponent("skills", "skills.html");
 loadComponent("projects", "projects.html");
 loadComponent("contact", "contact.html");
 

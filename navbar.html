@@ -48,6 +48,7 @@
     <ul class="hidden md:flex items-center gap-10">
       <li><a href="#home"     onclick="smoothNav(event,'home')"     class="nav-link active text-sm font-medium text-gray-300 hover:text-white transition-colors">Home</a></li>
       <li><a href="#about"    onclick="smoothNav(event,'about')"    class="nav-link        text-sm font-medium text-gray-300 hover:text-white transition-colors">About</a></li>
+      <li><a href="#skills"   onclick="smoothNav(event,'skills')"   class="nav-link        text-sm font-medium text-gray-300 hover:text-white transition-colors">Skills</a></li>
       <li><a href="#projects" onclick="smoothNav(event,'projects')" class="nav-link        text-sm font-medium text-gray-300 hover:text-white transition-colors">Projects</a></li>
       <li><a href="#contact"  onclick="smoothNav(event,'contact')"  class="nav-link        text-sm font-medium text-gray-300 hover:text-white transition-colors">Contact</a></li>
     </ul>
@@ -70,6 +71,7 @@
     <div class="px-6 py-3 flex flex-col">
       <a href="#home"     onclick="smoothNav(event,'home');closeMenu()"     class="py-3 text-sm text-gray-300 border-b border-white/5 hover:text-teal-300 transition-colors">Home</a>
       <a href="#about"    onclick="smoothNav(event,'about');closeMenu()"    class="py-3 text-sm text-gray-300 border-b border-white/5 hover:text-teal-300 transition-colors">About</a>
+      <a href="#skills"   onclick="smoothNav(event,'skills');closeMenu()"   class="py-3 text-sm text-gray-300 border-b border-white/5 hover:text-teal-300 transition-colors">Skills</a>
       <a href="#projects" onclick="smoothNav(event,'projects');closeMenu()" class="py-3 text-sm text-gray-300 border-b border-white/5 hover:text-teal-300 transition-colors">Projects</a>
       <a href="#contact"  onclick="smoothNav(event,'contact');closeMenu()"  class="py-3 text-sm text-gray-300 hover:text-teal-300 transition-colors">Contact</a>
     </div>
@@ -114,7 +116,7 @@
     });
   }, { threshold: 0.4 });
 
-  ['home','about','projects','contact'].forEach(function (id) {
+  ['home','about','skills','projects','contact'].forEach(function (id) {
     var el = document.getElementById(id);
     if (el) observer.observe(el);
   });
